@@ -1,0 +1,75 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('/static/image/heartbeat.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center center; 
+    margin: 0;
+    padding: 0;
+}
+
+
+h2 {
+    text-align: center;
+    color: #000000; 
+}
+
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+select, input[type="number"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #e9d1d1;
+    border-radius: 5px;
+}
+
+select {
+    height: 40px;
+}
+
+
+input[type="submit"] {
+    background-color: #eec1c1;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    align-items: center;
+    
+}
+
+input[type="submit"]:hover {
+    background-color: #dcb6b6;
+    transition: background-color 0.3s ease; 
+
+}
+
+.flash-messages ul {
+    list-style-type: none;
+    padding: 0;
+    font-weight: bold;
+    color: red;
+}
+
+.flash-messages li {
+    text-align: center;
+}
